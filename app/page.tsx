@@ -254,7 +254,7 @@ export default function Home() {
           {/* प्रोफेशनल डेवलपर यूआई एलिमेंट (सभी जॉब्स के लिए सामान्यीकृत) */}
           <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="https://github.com" 
+              href="https://github.com/shivani100604" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-extrabold rounded-full shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 text-xs uppercase tracking-wider"
@@ -262,7 +262,7 @@ export default function Home() {
               View GitHub Profile
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/shivani-gangwar-3b15b7327" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 border border-white/20 text-white font-bold rounded-full shadow-lg hover:bg-white/10 transition-all duration-300 text-xs uppercase tracking-wider"
