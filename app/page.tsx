@@ -347,7 +347,7 @@ export default function Home() {
             </motion.p>
           )}
 
-          {/* प्रीमियम और आकर्षक डेवलपर पोर्टफोलियो डैशबोर्ड */}
+          
           <div className="mt-28 pt-12 border-t border-slate-800/60 bg-gradient-to-b from-transparent to-[#080d1a] rounded-3xl p-8 border border-white/[0.01] shadow-[0_-15px_40px_rgba(34,211,238,0.01)]">
             <h3 className="text-base font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 mb-2">
               Connect With The Architect
@@ -356,7 +356,7 @@ export default function Home() {
               Review my open-source architectural frameworks, live ecosystem matrix, or stream workflows across corporate channels.
             </p>
 
-            {/* ग्लोबल प्रीमियम इंटरेक्टिव ग्रिड */}
+           
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-sm mx-auto">
               <a 
                 href="https://github.com" 
@@ -373,7 +373,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* प्रकार-सुरक्षित डेवलपर क्रेडेंशियल्स */}
+            
             <div className="mt-10 pt-6 border-t border-slate-900 max-w-xs mx-auto flex flex-col items-center gap-1">
               <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold tracking-wide">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
@@ -387,7 +387,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* आधुनिक ग्लोबल फुटर */}
+      
       <footer className="text-center py-8 text-[10px] text-slate-600 border-t border-slate-900 bg-[#02040a] tracking-widest font-mono">
         codingjr © 2026 | Encapsulated via <span className="text-cyan-500/60 font-medium">Next.js 15</span> • <span className="text-blue-500/60 font-medium">TypeScript</span> • <span className="text-emerald-500/60 font-medium">MongoDB Atlas</span>
       </footer>
