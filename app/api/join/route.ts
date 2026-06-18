@@ -5,10 +5,9 @@ export async function POST(request: Request) {
   try {
     const { email } = await request.json();
     
-    // डेटाबेस कनेक्शन
     await connectToDatabase();
     
-    // नया ईमेल MongoDB में सेव करें
+    
     const newStudent = new Student({ email });
     await newStudent.save();
     

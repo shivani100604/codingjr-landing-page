@@ -1,17 +1,19 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI || '';
 
-if (!MONGODB_URI) {
-  throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
-}
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/codingjr';
 
 export async function connectToDatabase() {
+  
   if (mongoose.connection.readyState >= 1) return;
-  return mongoose.connect(MONGODB_URI);
+  
+  try {
+    return await mongoose.connect(MONGODB_URI);
+  } catch (error) {
+    console.error("MongoDB connection error:", error);
+  }
 }
 
-// Student स्कीमा और मॉडल
 const StudentSchema = new mongoose.Schema({
   email: { type: String, required: true },
   date: { type: Date, default: Date.now },
