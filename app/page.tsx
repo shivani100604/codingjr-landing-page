@@ -188,7 +188,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Right Hero Image Box */}
+          {/* Right Hero Image Box (Fixed Image Source) */}
           <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.2 }} className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 to-transparent rounded-3xl blur-xl -z-10" />
             <div className="border border-slate-800 p-2 rounded-3xl bg-slate-900/30 backdrop-blur-md shadow-2xl overflow-hidden">
