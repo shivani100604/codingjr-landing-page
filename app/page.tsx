@@ -188,12 +188,12 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Right Hero Image Box (Fixed Image Source) */}
+          {/* Right Hero Image Box */}
           <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.2 }} className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 to-transparent rounded-3xl blur-xl -z-10" />
             <div className="border border-slate-800 p-2 rounded-3xl bg-slate-900/30 backdrop-blur-md shadow-2xl overflow-hidden">
               <Image
-               src="https://unsplash.com"
+               src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
                alt="students collaborating"
                width={700}
                height={500}
@@ -210,8 +210,8 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-1">
             <p className="text-cyan-400 text-xs font-mono tracking-widest uppercase mb-3">Core Paradigm</p>
-            <h2 className="text-3xl font-extrabold tracking-tight text-white">Why Tutorial Loops Fail.</h2>
-                    </div> {/* md:col-span-1 */}
+                        <h2 className="text-3xl font-extrabold tracking-tight text-white">Why Tutorial Loops Fail.</h2>
+          </div>
           
           <div className="md:col-span-2 grid sm:grid-cols-2 gap-6">
             <div className="p-8 rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-900/50 to-transparent backdrop-blur-sm">
@@ -317,7 +317,7 @@ export default function Home() {
           <h2 className="text-3xl font-extrabold tracking-tight mb-4 text-white">Advance Beyond Manual Boilerplates.</h2>
           <p className="text-slate-400 text-sm mb-8 leading-relaxed max-w-md mx-auto">Commit production code schemas under cloud-native industrial parameters. Connect sandbox systems instantly.</p>
           
-          {}
+          {/* MERN MongoDB Form Node */}
           <form onSubmit={handleJoin} className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto w-full">
             <input 
               type="email" 
@@ -347,7 +347,7 @@ export default function Home() {
             </motion.p>
           )}
 
-          {}
+          {/* प्रीमियम और आकर्षक डेवलपर पोर्टफोलियो डैशबोर्ड */}
           <div className="mt-28 pt-12 border-t border-slate-800/60 bg-gradient-to-b from-transparent to-[#080d1a] rounded-3xl p-8 border border-white/[0.01] shadow-[0_-15px_40px_rgba(34,211,238,0.01)]">
             <h3 className="text-base font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 mb-2">
               Connect With The Architect
@@ -356,18 +356,15 @@ export default function Home() {
               Review my open-source architectural frameworks, live ecosystem matrix, or stream workflows across corporate channels.
             </p>
 
-            {}
+            {/* ग्लोबल प्रीमियम इंटरेक्टिव ग्रिड */}
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-sm mx-auto">
               <a 
-                href="https://github.com/shivani100604" 
+                href="https://github.com" 
                 target="_blank" 
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-7 py-3 bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-extrabold rounded-full shadow-[0_4px_15px_rgba(34,211,238,0.15)] hover:shadow-[0_4px_25px_rgba(34,211,238,0.3)] hover:scale-[1.03] transition-all duration-300 text-[11px] uppercase tracking-widest text-center"
-              >
-                GitHub Profile
-                              </a>
+                rel="noopener noreferrer">
+                            </a>
               <a 
-                href="https://linkedin.com/in/shivani-gangwar-3b15b7327" 
+                href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-7 py-3 border border-slate-800 hover:border-cyan-400/40 text-slate-300 hover:text-cyan-400 bg-slate-900/40 rounded-full hover:scale-[1.03] transition-all duration-300 text-[11px] uppercase tracking-widest text-center"
@@ -376,7 +373,7 @@ export default function Home() {
               </a>
             </div>
 
-            {}
+            {/* प्रकार-सुरक्षित डेवलपर क्रेडेंशियल्स */}
             <div className="mt-10 pt-6 border-t border-slate-900 max-w-xs mx-auto flex flex-col items-center gap-1">
               <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold tracking-wide">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
@@ -390,7 +387,7 @@ export default function Home() {
         </div>
       </section>
 
-      {}
+      {/* आधुनिक ग्लोबल फुटर */}
       <footer className="text-center py-8 text-[10px] text-slate-600 border-t border-slate-900 bg-[#02040a] tracking-widest font-mono">
         codingjr © 2026 | Encapsulated via <span className="text-cyan-500/60 font-medium">Next.js 15</span> • <span className="text-blue-500/60 font-medium">TypeScript</span> • <span className="text-emerald-500/60 font-medium">MongoDB Atlas</span>
       </footer>
@@ -398,4 +395,3 @@ export default function Home() {
     </main>
   );
 }
-
