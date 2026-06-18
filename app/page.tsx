@@ -229,7 +229,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MERN INPUT & DIGITAL HEROES REQUIRED FOOTER */}
+      {/* MERN INPUT SECTION */}
       <section id="join-section" className="w-full py-16 border-t border-white/10 bg-black/40">
         <div className="max-w-md mx-auto px-6 text-center">
           <h2 className="text-2xl font-bold mb-4">Start building projects instead of just collecting certificates.</h2>
@@ -237,12 +237,12 @@ export default function Home() {
           
           {/* MERN MongoDB Form Input */}
           <form onSubmit={handleJoin} className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-                        <input 
+            <input 
               type="email" 
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email" 
-              className="w-full sm:w-64 p-3 rounded-full text-black border-none outline-none text-sm font-medium"
+                            className="w-full sm:w-64 p-3 rounded-full text-black border-none outline-none text-sm font-medium"
               required 
             />
             <button type="submit" className="w-full sm:w-auto bg-cyan-400 text-black px-6 py-3 rounded-full text-sm font-bold hover:scale-[1.03] transition-all">
@@ -251,27 +251,35 @@ export default function Home() {
           </form>
           {message && <p className="text-xs mt-3 text-cyan-400 font-mono">{message}</p>}
 
-          {/* डिजिटल हीरोज़ अनिवार्य यूआई एलिमेंट */}
-          <div className="mt-16 pt-8 border-t border-white/5">
+          {/* प्रोफेशनल डेवलपर यूआई एलिमेंट (सभी जॉब्स के लिए सामान्यीकृत) */}
+          <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="https://digitalheroesco.com" 
+              href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-extrabold rounded-full shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 mb-4 text-sm uppercase tracking-wider"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-extrabold rounded-full shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 text-xs uppercase tracking-wider"
             >
-              Built for Digital Heroes
+              View GitHub Profile
             </a>
-            <div className="text-slate-500 text-xs space-y-1">
-              <p><strong>Developer:</strong> Shivani Gangwar</p>
-              <p><strong>Email:</strong> your-email@example.com</p> {/* यहाँ अपना असली ईमेल डालें */}
-            </div>
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 border border-white/20 text-white font-bold rounded-full shadow-lg hover:bg-white/10 transition-all duration-300 text-xs uppercase tracking-wider"
+            >
+              Connect on LinkedIn
+            </a>
+          </div>
+          <div className="text-slate-500 text-xs mt-4 space-y-1">
+            <p><strong>Developed By:</strong> Shivani Gangwar</p>
+            <p><strong>Role:</strong> Full-Stack MERN Developer</p>
           </div>
         </div>
       </section>
 
       {/* FOOTER */}
       <footer className="text-center py-6 text-xs text-slate-600 border-t border-white/5 bg-[#0b1120]">
-        codingjr © 2026 | Built using Next.js and Tailwind CSS.
+        codingjr © 2026 | Built using Next.js, TypeScript, and MongoDB.
       </footer>
 
     </main>
