@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { connectToDatabase, Student } from '@/lib/mongodb';
+import { connectToDatabase, Student } from '../../../lib/mongodb';
 
 export async function POST(request: Request) {
   try {
