@@ -9,7 +9,7 @@ A production-optimized, highly responsive, and architecturally rigorous EdTech l
 
 ## 🛠️ Architectural Ecosystem (Tech Stack)
 
-- **Frontend Core:** Next.js 15 (React Framework) with Client-Side Hydration डिक्लेरेशन (`"use client"`).
+- **Frontend Core:** Next.js 15 (React Framework) with Client-Side Hydration declaration (`"use client"`).
 - **Type Safety:** TypeScript for compiled-time structural strictness.
 - **Styling UI/UX:** Tailwind CSS (Utility-first fluid grid matrix) & Framer Motion for smooth neon transitions.
 - **Backend Infrastructure:** Next.js Serverless API Routes (`/api/join`) operating on Node.js runtime environments.
