@@ -2,8 +2,8 @@
 
 A production-optimized, highly responsive, and architecturally rigorous EdTech landing platform built using **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **MongoDB Atlas**. This project eliminates legacy backend boilerplates by moving entirely to a modern, serverless system layout hosted dynamically on Vercel.
 
-🔗 **Live Deployment:** [https://vercel.app](https://vercel.app)  
-🔗 **Developer Matrix:** [Shivani Gangwar](https://github.com)
+🔗 **Live Deployment:** [https://codingjr-landing-page.vercel.app](https://codingjr-landing-page.vercel.app/)  
+🔗 **Developer Matrix:** [Shivani Gangwar](https://github.com/shivani100604)
 
 ---
 
